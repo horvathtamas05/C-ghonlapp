@@ -8,7 +8,7 @@
     
     width: 100%;
     height: 100vh;
-    background-image:url(hatterr.webp);
+    background-image:url(ok.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -88,6 +88,7 @@ button{
     cursor: pointer;
     position: relative;
     overflow: hidden;
+    
 
 }
 
