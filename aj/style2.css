@@ -4,42 +4,45 @@
     box-sizing: border-box;
 
 }
-
+html{
+    scroll-behavior: smooth;
+}
 
 .navbar{
     display: flex;
-    
     background-color: rgb(6, 162, 235);
     position: sticky;
     top: 0;
+    justify-content:center;
+    align-items: center;
 }
 .navbar ul{
     display: flex;
     list-style: none;
-    margin: 20px 0px;
+    margin: 15px 0px;
 }
 .navbar ul li{
     font-family: century;
     font-size: 1.1rem;
     font-weight: bold;
-    padding: 8px 25px;
+    padding: 10px 25px;
 }
 .navbar ul li a{
     text-decoration: none;
     color: white;
     padding: 8px 25px;
     transition: all .5s ease;
-
+    
 }
 .navbarul li a:hover{
     background-color: white;
     color:pink;
-    box-shadow: 0 0 10px rgb(20, 106, 235);
+    box-shadow: 0 0 10px rgb(20, 106, 235); 
     
 }
 
 
-#home{
+#Home{
     display: flex;
     flex-direction: column;
     height: 840px;
@@ -47,7 +50,7 @@
     align-items: center;
     color: white;
 }
-#home::before{
+#Home::before{
     content: "";
     position: absolute;
     top: 0;
@@ -58,10 +61,12 @@
     z-index: -1;
     opacity: .8;
 }
+.bm{
+    color: black;
+}
 .main{
     display: flex;
     flex-direction: column;
-    
     align-items: center;
     position: absolute;
     top: 30%;
@@ -76,11 +81,11 @@
 }
 .btn{
     padding: 10px 35px;
-    background-color: transparent;
     border: 1px solid white;
-    color: white;
+    color: black;
     outline: none;
     transition: .6s ease;
+  
 }
 .btn:hover{
     cursor: pointer;
@@ -90,8 +95,26 @@
     font-weight: bold;
 
 }
+.pic{
+    background-image: url(ll.jpg);
+    height: 700px;
+    color: white;
+    font-size: 20px;
+}
+.felirat{
+    text-align: center;
+    font-size: 50px;
+}
+.kep{
+   width: 300px;
+   height: 300px;
 
-#service{
+}
+
+   
+
+
+#Szolgáltatásaink{
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -102,6 +125,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     box-sizing: border-box;
+    
 }
 .box{
     display: flex;
@@ -124,7 +148,7 @@
     border: none;
     box-shadow: 0 0 20px rgb(226, 15, 15);
 }
-#contact{
+#Kapcsolat{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
