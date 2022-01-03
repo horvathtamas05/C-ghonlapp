@@ -160,6 +160,15 @@ html{
 }
 #Munkáink{
    height: 700px;
+
+}
+.kepp{
+    height: 370px;
+    margin: 19px;
+    align:center;
+    
+
+    
 }
 #Kapcsolat{
     display: flex;
