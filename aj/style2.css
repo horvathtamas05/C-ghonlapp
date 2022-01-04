@@ -165,11 +165,9 @@ html{
 .kepp{
     height: 370px;
     margin: 19px;
-    align:center;
-    
-
-    
+    align-items: center;
 }
+
 #Kapcsolat{
     display: flex;
     flex-direction: column;
